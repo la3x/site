@@ -1,0 +1,28 @@
+@keyframes color-change {
+    0%{
+        color: rgb(251, 91, 201) 
+    }
+    50%{
+        color: #49a5fa
+    }
+    100%{
+        color: #3de6f8
+    }
+}
+body {
+    font-family: Inter,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #49a5fa; /* Цвет фона веб-страницы */
+    color: #FFFFFF; /* Цвет основного текста */ 
+}
+h1 {
+    border: 5px solid #D6FF6B;
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    background-color: #FD98FB;
+}
+h1:hover{animation: color-change 3s infinite;}
+h2{
+    font-size: 20px;
+    background-color: #FD98FB;
+}
